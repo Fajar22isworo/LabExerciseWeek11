@@ -16,6 +16,6 @@ namespace LabExerciseWeek11.EmployeeData
             this.Nama = nama;
         }
         
-		public abstract double Gaji();
+	public abstract double Gaji();
 	}
 }

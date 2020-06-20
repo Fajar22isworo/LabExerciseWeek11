@@ -9,13 +9,7 @@ namespace LabExerciseWeek11.EmployeeData
 	{
 		public double UpahPerJam {get;set;}
 		public double JumlahJamKerja {get;set;}
-        
-        public KaryawanHarian(double upahPerJam=0, double jumlahJamKerja=0)
-        {
-            this.UpahPerJam = upahPerJam;
-            this.JumlahJamKerja = jumlahJamKerja;
-        }
-        
+  
 		public override double Gaji()
 		{
 			double Gaji = 0;

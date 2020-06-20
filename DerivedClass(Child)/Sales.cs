@@ -10,12 +10,6 @@ namespace LabExerciseWeek11.EmployeeData
 		public double JumlahPenjualan {get;set;}
 		public double Komisi {get;set;}
         
-		public Sales(double jumlahPenjualan=0, double komisi=0)
-		{
-			this.JumlahPenjualan = jumlahPenjualan;
-			this.Komisi = komisi;
-		}
-        
 		public override double Gaji()
 		{
 			double Gaji = 0;
